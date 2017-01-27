@@ -19,7 +19,18 @@ TRANSLATION_FEED_ATOM = None
 LINKS =  None
 
 # Social widget
-SOCIAL = (('GitHub', 'https://github.com/debate-information-laboratory'),)
+SOCIAL = (('GitHub', 'https://github.com/debate-info-lab'),)
+
+STATIC_PATHS = [
+    'img',
+    'static',
+]
+
+EXTRA_PATH_METADATA = {
+    'static/favicon.ico': {
+        'path': 'favicon.ico',
+    },
+}
 
 DEFAULT_PAGINATION = 10
 
