@@ -64,8 +64,8 @@ Wordなどには文章の文字数を表示する機能があります。
 ダウンロードはこちらから。
 [SEPSpeechTools v0.0.1]
 
-[SEPSpeechTools]: https://github.com/debate-info-lab/sep-speech-tools
-[SEPSpeechTools v0.0.1]: https://github.com/debate-info-lab/sep-speech-tools/releases/tag/v0.0.1
+[SEPSpeechTools]: https://github.com/info-labs/sep-speech-tools
+[SEPSpeechTools v0.0.1]: https://github.com/info-labs/sep-speech-tools/releases/tag/v0.0.1
 
 [AquesTalk]: http://www.a-quest.com/products/aquestalk.html
 [libmecab]: http://taku910.github.io/mecab/
