@@ -19,7 +19,10 @@ TRANSLATION_FEED_ATOM = None
 LINKS =  None
 
 # Social widget
-SOCIAL = (('GitHub', 'https://github.com/info-labs'),)
+SOCIAL = (
+    ('GitHub', 'https://github.com/info-labs'),
+    ('Twitter', 'https://twitter.com/InfoLabs_jp'),
+)
 
 STATIC_PATHS = [
     'img',
