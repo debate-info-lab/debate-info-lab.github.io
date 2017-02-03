@@ -59,9 +59,9 @@ Debate Information Laboratory            </a>
                          <li><a href="https://debate.info-labs.jp/pages/about.html">
                              ディベート情報研究所とは
                           </a></li>
-                        <li >
-                            <a href="https://debate.info-labs.jp/category/misc.html">Misc</a>
-                        </li>
+                         <li><a href="https://debate.info-labs.jp/pages/sep-speech-tools.html">
+                             SEPSpeechTools
+                          </a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
               <li><a href="https://debate.info-labs.jp/archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Archives</span></a></li>
@@ -75,40 +75,6 @@ Debate Information Laboratory            </a>
 <div class="container">
     <div class="row">
         <div class="col-sm-9">
-            <article>
-                <h2><a href="https://debate.info-labs.jp/sep-speech-tools.html">SEPSpeechTools</a></h2>
-                <div class="summary"><p>Wordなどには文章の文字数を表示する機能があります。</p>
-<p>しかし、日本語は漢字とかなの入り混じった文章のため、文字数自体が文章の長さとは言い切れない場合があります。</p>
-<p>読み上げる際の時間の長さに直結しそうな要素を考えてみると、読み仮名の長さの方がより正確な文章の長さと言えるのではないでしょうか。</p>
-<p>日本語アカデミックディベート界では立論の長さは文字数を単位とすることが基本と思われますが、それは文字数でしか文章の長さを見ることができなかったことにあります。</p>
-<p>ところで、自然言語処理技術の中に、形態素解析というものがあります。この分野では辞書という形で膨大な単語の読み仮名情報が記録されています。</p>
-<p>この辞書を利用することで、文章の読み仮名を取得することはできないでしょうか？</p>
-<p>ということで生まれたのが<a href="https://github.com/info-labs/sep-speech-tools">SEPSpeechTools</a>です。</p>
-<h2>謝辞</h2>
-<p>このツールの根幹には<a href="https://github.com/neologd/mecab-ipadic-neologd">mecab-ipadic-NEologd</a>があります。
-最新の単語等を網羅したこの辞書がなければ、現実的に用いることができるツールにはなりませんでした。
-この場を借りて感謝いたします。</p>
-<p>その他、以下のツールを使用しております。</p>
-<ul>
-<li><a href="http://www.a-quest.com/products/aquestalk.html">AquesTalk</a></li>
-<li><a href="http://taku910.github.io/mecab/">libmecab</a></li>
-<li>mecab-ipadic</li>
-<li><a href="https://www.qt.io/">Qt5</a></li>
-</ul>
-<h2>数え上げルール</h2>
-<ul>
-<li>拗音（<code>ゃ</code> <code>ゅ</code> <code>ょ</code>等）を0母音とします。</li>
-<li>促音（<code>っ</code>）を0.5母音として数えます。</li>
-<li>記号のうち、句点（<code>。</code>）や長音（<code>ー</code>）といったタイミングに関わるものを1母音として数えます。</li>
-<li>その他の記号は0母音として扱います。</li>
-<li>読みの取得できない未知の単語については文字数をそのまま適用します。</li>
-</ul>
-<h2>使い方</h2>
-<p>テキストボックスにテキストを貼り付けると ...</p>
-                    <a class="btn btn-default btn-xs" href="https://debate.info-labs.jp/sep-speech-tools.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
 
         </div>
         <div class="col-sm-3" id="sidebar">
@@ -137,7 +103,7 @@ Debate Information Laboratory            </a>
    <div class="container">
       <hr>
       <div class="row">
-         <div class="col-xs-10">&copy; 2017 mugwort_rc
+         <div class="col-xs-10">&copy;  mugwort_rc
             &middot; Powered by <a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
             <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
             <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>

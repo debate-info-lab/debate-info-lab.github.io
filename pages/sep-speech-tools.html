@@ -9,19 +9,16 @@
 
 
 
-<link rel="canonical" href="https://debate.info-labs.jp/sep-speech-tools.html">
+<link rel="canonical" href="https://debate.info-labs.jp/pages/sep-speech-tools.html">
 
         <meta name="author" content="mugwort_rc" />
         <meta name="description" content="Wordなどには文章の文字数を表示する機能があります。 しかし、日本語は漢字とかなの入り混じった文章のため、文字数自体が文章の長さとは言い切れない場合があります。 読み上げる際の時間の長さに直結しそうな要素を考えてみると、読み仮名の長さの方がより正確な文章の長さと言えるのではないでしょうか。 日本語アカデミックディベート界では立論の長さは文字数を単位とすることが基本と思われますが、それは文字数でしか文章の長さを見ることができなかったことにあります。 ところで、自然言語処理技術の中に、形態素解析というものがあります。この分野では辞書という形で膨大な単語の読み仮名情報が記録されています。 この辞書を利用することで、文章の読み仮名を取得することはできないでしょうか？ ということで生まれたのがSEPSpeechToolsです。 謝辞 このツールの根幹にはmecab-ipadic-NEologdがあります。 最新の単語等を網羅したこの辞書がなければ、現実的に用いることができるツールにはなりませんでした。 この場を借りて感謝いたします。 その他、以下のツールを使用しております。 AquesTalk libmecab mecab-ipadic Qt5 数え上げルール 拗音（ゃ ゅ ょ等）を0母音とします。 促音（っ）を0.5母音として数えます。 記号のうち、句点（。）や長音（ー）といったタイミングに関わるものを1母音として数えます。 その他の記号は0母音として扱います。 読みの取得できない未知の単語については文字数をそのまま適用します。 使い方 テキストボックスにテキストを貼り付けると ..." />
 
-        <meta property="og:site_name" content="Debate Information Laboratory" />
-        <meta property="og:type" content="article"/>
-        <meta property="og:title" content="SEPSpeechTools"/>
-        <meta property="og:url" content="https://debate.info-labs.jp/sep-speech-tools.html"/>
-        <meta property="og:description" content="Wordなどには文章の文字数を表示する機能があります。 しかし、日本語は漢字とかなの入り混じった文章のため、文字数自体が文章の長さとは言い切れない場合があります。 読み上げる際の時間の長さに直結しそうな要素を考えてみると、読み仮名の長さの方がより正確な文章の長さと言えるのではないでしょうか。 日本語アカデミックディベート界では立論の長さは文字数を単位とすることが基本と思われますが、それは文字数でしか文章の長さを見ることができなかったことにあります。 ところで、自然言語処理技術の中に、形態素解析というものがあります。この分野では辞書という形で膨大な単語の読み仮名情報が記録されています。 この辞書を利用することで、文章の読み仮名を取得することはできないでしょうか？ ということで生まれたのがSEPSpeechToolsです。 謝辞 このツールの根幹にはmecab-ipadic-NEologdがあります。 最新の単語等を網羅したこの辞書がなければ、現実的に用いることができるツールにはなりませんでした。 この場を借りて感謝いたします。 その他、以下のツールを使用しております。 AquesTalk libmecab mecab-ipadic Qt5 数え上げルール 拗音（ゃ ゅ ょ等）を0母音とします。 促音（っ）を0.5母音として数えます。 記号のうち、句点（。）や長音（ー）といったタイミングに関わるものを1母音として数えます。 その他の記号は0母音として扱います。 読みの取得できない未知の単語については文字数をそのまま適用します。 使い方 テキストボックスにテキストを貼り付けると ..."/>
-        <meta property="article:published_time" content="2017-01-27" />
-            <meta property="article:section" content="misc" />
-            <meta property="article:author" content="mugwort_rc" />
+    <meta property="og:site_name" content="Debate Information Laboratory" />
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="SEPSpeechTools"/>
+    <meta property="og:url" content="https://debate.info-labs.jp/pages/sep-speech-tools.html"/>
+    <meta property="og:description" content="Wordなどには文章の文字数を表示する機能があります。 しかし、日本語は漢字とかなの入り混じった文章のため、文字数自体が文章の長さとは言い切れない場合があります。 読み上げる際の時間の長さに直結しそうな要素を考えてみると、読み仮名の長さの方がより正確な文章の長さと言えるのではないでしょうか。 日本語アカデミックディベート界では立論の長さは文字数を単位とすることが基本と思われますが、それは文字数でしか文章の長さを見ることができなかったことにあります。 ところで、自然言語処理技術の中に、形態素解析というものがあります。この分野では辞書という形で膨大な単語の読み仮名情報が記録されています。 この辞書を利用することで、文章の読み仮名を取得することはできないでしょうか？ ということで生まれたのがSEPSpeechToolsです。 謝辞 このツールの根幹にはmecab-ipadic-NEologdがあります。 最新の単語等を網羅したこの辞書がなければ、現実的に用いることができるツールにはなりませんでした。 この場を借りて感謝いたします。 その他、以下のツールを使用しております。 AquesTalk libmecab mecab-ipadic Qt5 数え上げルール 拗音（ゃ ゅ ょ等）を0母音とします。 促音（っ）を0.5母音として数えます。 記号のうち、句点（。）や長音（ー）といったタイミングに関わるものを1母音として数えます。 その他の記号は0母音として扱います。 読みの取得できない未知の単語については文字数をそのまま適用します。 使い方 テキストボックスにテキストを貼り付けると ..." />
 
 
     <!-- Bootstrap -->
@@ -36,8 +33,6 @@
 
 
 
-        <link href="https://debate.info-labs.jp/feeds/misc.atom.xml" type="application/atom+xml" rel="alternate"
-              title="Debate Information Laboratory misc ATOM Feed"/>
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
   (adsbygoogle = window.adsbygoogle || []).push({
@@ -65,9 +60,9 @@ Debate Information Laboratory            </a>
                          <li><a href="https://debate.info-labs.jp/pages/about.html">
                              ディベート情報研究所とは
                           </a></li>
-                        <li class="active">
-                            <a href="https://debate.info-labs.jp/category/misc.html">Misc</a>
-                        </li>
+                         <li class="active"><a href="https://debate.info-labs.jp/pages/sep-speech-tools.html">
+                             SEPSpeechTools
+                          </a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
               <li><a href="https://debate.info-labs.jp/archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Archives</span></a></li>
@@ -81,34 +76,11 @@ Debate Information Laboratory            </a>
 <div class="container">
     <div class="row">
         <div class="col-sm-9">
-    <section id="content">
-        <article>
-            <header class="page-header">
-                <h1>
-                    <a href="https://debate.info-labs.jp/sep-speech-tools.html"
-                       rel="bookmark"
-                       title="Permalink to SEPSpeechTools">
-                        SEPSpeechTools
-                    </a>
-                </h1>
-            </header>
-            <div class="entry-content">
-                <div class="panel">
-                    <div class="panel-body">
-<footer class="post-info">
-    <span class="label label-default">Date</span>
-    <span class="published">
-        <i class="fa fa-calendar"></i><time datetime="2017-01-27T00:00:00+09:00"> 金 27 1月 2017</time>
-    </span>
-
-
-
-
-
-    
-</footer><!-- /.post-info -->                    </div>
-                </div>
-                <p>Wordなどには文章の文字数を表示する機能があります。</p>
+    <section id="content" class="body">
+        <h1 class="entry-title">SEPSpeechTools</h1>
+        
+        <div class="entry-content">
+            <p>Wordなどには文章の文字数を表示する機能があります。</p>
 <p>しかし、日本語は漢字とかなの入り混じった文章のため、文字数自体が文章の長さとは言い切れない場合があります。</p>
 <p>読み上げる際の時間の長さに直結しそうな要素を考えてみると、読み仮名の長さの方がより正確な文章の長さと言えるのではないでしょうか。</p>
 <p>日本語アカデミックディベート界では立論の長さは文字数を単位とすることが基本と思われますが、それは文字数でしか文章の長さを見ることができなかったことにあります。</p>
@@ -136,9 +108,9 @@ Debate Information Laboratory            </a>
 </ul>
 <h2>使い方</h2>
 <p>テキストボックスにテキストを貼り付けると、ウィンドウ下部のステータスバーに文字数と母音数が表示されます。</p>
-<p><img alt="mainwindow.png" src="https://debate.info-labs.jp/img/sep-speech-tools/mainwindow.png" /></p>
+<p><img alt="mainwindow.png" src="https://debate.info-labs.jp/pages/mainwindow.png" /></p>
 <p>どのようにルビが振られたかを見ることもできます。</p>
-<p><img alt="speechdialog.png" src="https://debate.info-labs.jp/img/sep-speech-tools/speechdialog.png" /></p>
+<p><img alt="speechdialog.png" src="https://debate.info-labs.jp/pages/speechdialog.png" /></p>
 <p>機械音声生成ライブラリを用いて取得した読み仮名を読み上げることもできます。</p>
 <p>詳しくは付属のhelp.htmlをお読みください。</p>
 <h2>注意事項</h2>
@@ -149,11 +121,8 @@ Debate Information Laboratory            </a>
 <h2>ダウンロード</h2>
 <p>ダウンロードはこちらから。
 <a href="https://github.com/info-labs/sep-speech-tools/releases/tag/v0.0.1">SEPSpeechTools v0.0.1</a></p>
-            </div>
-            <!-- /.entry-content -->
-        </article>
+        </div>
     </section>
-
         </div>
         <div class="col-sm-3" id="sidebar">
             <aside>
@@ -181,7 +150,7 @@ Debate Information Laboratory            </a>
    <div class="container">
       <hr>
       <div class="row">
-         <div class="col-xs-10">&copy; 2017 mugwort_rc
+         <div class="col-xs-10">&copy;  mugwort_rc
             &middot; Powered by <a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
             <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
             <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
