@@ -30,6 +30,9 @@ STATIC_PATHS = [
 ]
 
 EXTRA_PATH_METADATA = {
+    'static/CNAME': {
+        'path': 'CNAME',
+    },
     'static/android-icon-36x36.png': {
         'path': 'android-icon-36x36.png',
     },
