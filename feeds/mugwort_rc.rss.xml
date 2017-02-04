@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Debate Information Laboratory</title><link href="https://debate.info-labs.jp/" rel="alternate"></link><link href="https://debate.info-labs.jp/feeds/all.atom.xml" rel="self"></link><id>https://debate.info-labs.jp/</id><updated>2017-01-27T00:00:00+09:00</updated><entry><title>SEPSpeechTools v0.0.1を公開しました</title><link href="https://debate.info-labs.jp/2017-01-27-sep-speech-tools.html" rel="alternate"></link><updated>2017-01-27T00:00:00+09:00</updated><author><name>mugwort_rc</name></author><id>tag:debate.info-labs.jp,2017-01-27:2017-01-27-sep-speech-tools.html</id><summary type="html">&lt;p&gt;&lt;a href="https://debate.info-labs.jp/pages/sep-speech-tools.html"&gt;SEPSpeechTools&lt;/a&gt;は文章の母音数を算出するソフトウェアです。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Debate Information Laboratory</title><link>https://debate.info-labs.jp/</link><description></description><atom:link href="https://debate.info-labs.jp/feeds/mugwort_rc.rss.xml" rel="self"></atom:link><lastBuildDate>Fri, 27 Jan 2017 00:00:00 +0900</lastBuildDate><item><title>SEPSpeechTools v0.0.1を公開しました</title><link>https://debate.info-labs.jp/2017-01-27-sep-speech-tools.html</link><description>&lt;p&gt;&lt;a href="https://debate.info-labs.jp/pages/sep-speech-tools.html"&gt;SEPSpeechTools&lt;/a&gt;は文章の母音数を算出するソフトウェアです。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="mainwindow.png" src="https://debate.info-labs.jp/mainwindow.png" /&gt;&lt;/p&gt;
 &lt;p&gt;従来のソフトウェアでは文章を読み上げる場合の長さを文字数から概算することしかできませんでした。&lt;/p&gt;
 &lt;p&gt;読み上げる長さに直接影響を与える要素として考えられるものはよみがなの長さであると推測できます。&lt;/p&gt;
@@ -25,4 +25,4 @@
 &lt;li&gt;&lt;a href="https://debate.info-labs.jp/pages/sep-speech-tools.html"&gt;SEPSpeechTools&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/info-labs/sep-speech-tools/releases/tag/v0.0.1"&gt;SEPSpeechTools v0.0.1&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/info-labs/sep-speech-tools"&gt;GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</summary></entry></feed>
+&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mugwort_rc</dc:creator><pubDate>Fri, 27 Jan 2017 00:00:00 +0900</pubDate><guid>tag:debate.info-labs.jp,2017-01-27:2017-01-27-sep-speech-tools.html</guid></item></channel></rss>

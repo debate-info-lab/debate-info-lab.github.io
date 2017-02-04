@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-    <title>Archives - Debate Information Laboratory</title>
+    <title>Articles by mugwort_rc - Debate Information Laboratory</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -72,15 +72,40 @@ Debate Information Laboratory            </a>
 <div class="container">
     <div class="row">
         <div class="col-sm-9">
-    <section id="content">
-        <h1>Archives for Debate Information Laboratory</h1>
-        <div id="archives">
-                <p>
-                    <span class="categories-timestamp"><time datetime="2017-01-27T00:00:00+09:00">金 27 1月 2017</time></span>
-                    <a href="https://debate.info-labs.jp/2017-01-27-sep-speech-tools.html">SEPSpeechTools v0.0.1を公開しました</a>
-                </p>
-        </div>
-    </section>
+            <article>
+                <h2><a href="https://debate.info-labs.jp/2017-01-27-sep-speech-tools.html">SEPSpeechTools v0.0.1を公開しました</a></h2>
+                <div class="summary"><p><a href="https://debate.info-labs.jp/pages/sep-speech-tools.html">SEPSpeechTools</a>は文章の母音数を算出するソフトウェアです。</p>
+<p><img alt="mainwindow.png" src="https://debate.info-labs.jp/mainwindow.png" /></p>
+<p>従来のソフトウェアでは文章を読み上げる場合の長さを文字数から概算することしかできませんでした。</p>
+<p>読み上げる長さに直接影響を与える要素として考えられるものはよみがなの長さであると推測できます。</p>
+<p>よみがなを母音数とみなし、文字数とともに算出するのがこのツールです。</p>
+<h2>辞書について</h2>
+<p>mecab-ipadic-NEologdと呼ばれる、最新の単語等を網羅した辞書を用いることで高精度なよみがな取得を実現しています。</p>
+<p>しかし、あくまで統計的手法で処理が行われるため、完全に正しいよみがなを返すわけではありません。
+登録されていない新しい単語や専門用語などでは誤った読みを取得することがあります。</p>
+<p>これについては付属する辞書登録ツールを用いて単語登録を行うことで正しいよみがなを割り当てることができます。</p>
+<p>また、同表記異音語では異質な読み方で読みを取得することがあります。
+これについては辞書登録では改善することができないため、算出誤差として目をつぶっていただけると助かります。
+（辞書登録で優先しても、別の読みをするところで登録されたものが優先されてしまい、あちらを立てればこちらが立たず、といった感じになります。。）</p>
+<h2>利用について</h2>
+<p>このツールはテキストエディタとして用いることを推奨しません。
+テキストの変更ごとにテキストの解析処理が行われるため、重要な文章を計測にかける際は文章のバックアップをとった上で使用してください。</p>
+<p>このツールを使用したことで生じた損害等は作者及びディベート情報研究所は一切関知しません。
+全て自己責任でご使用ください。</p>
+<p>ライセンスはGPLv3の下で開発されていますので、どなたでも自由にお使いいただけます。
+ただし、付属する辞書や音声合成機能につきましては、ライセンスの取り扱いに注意する必要があります。</p>
+<p>詳しくは付属のhelp.htmlをお読みください。</p>
+<h2>参照</h2>
+<ul>
+<li><a href="https://debate.info-labs.jp/pages/sep-speech-tools.html">SEPSpeechTools</a></li>
+<li><a href="https://github.com/info-labs/sep-speech-tools/releases/tag/v0.0.1">SEPSpeechTools v0.0.1</a></li>
+<li><a href="https://github.com/info-labs/sep-speech-tools">GitHub</a></li>
+</ul>
+                    <a class="btn btn-default btn-xs" href="https://debate.info-labs.jp/2017-01-27-sep-speech-tools.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+
         </div>
         <div class="col-sm-3" id="sidebar">
             <aside>
