@@ -11,4 +11,4 @@ Date: 2016-05-15
 
 * [SEPSpeechTools] : 文章母音数取得ツール
 
-[SEPSpeechTools]: ./sep-speech-tools.html
+[SEPSpeechTools]: {filename}./sep-speech-tools.md

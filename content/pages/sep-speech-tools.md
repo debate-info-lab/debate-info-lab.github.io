@@ -62,7 +62,11 @@ Wordなどには文章の文字数を表示する機能があります。
 ## ダウンロード
 
 ダウンロードはこちらから。
-[SEPSpeechTools v0.0.1]
+
+<a href="https://github.com/info-labs/sep-speech-tools/releases/tag/v0.0.1" class="btn btn-default btn-lg">
+  <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Download v0.0.1
+</a>
+
 
 [SEPSpeechTools]: https://github.com/info-labs/sep-speech-tools
 [SEPSpeechTools v0.0.1]: https://github.com/info-labs/sep-speech-tools/releases/tag/v0.0.1
