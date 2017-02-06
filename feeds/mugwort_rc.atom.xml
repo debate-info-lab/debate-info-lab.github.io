@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Debate Information Laboratory</title><link href="https://debate.info-labs.jp/" rel="alternate"></link><link href="https://debate.info-labs.jp/feeds/mugwort_rc.atom.xml" rel="self"></link><id>https://debate.info-labs.jp/</id><updated>2017-01-27T00:00:00+09:00</updated><entry><title>SEPSpeechTools v0.0.1を公開しました</title><link href="https://debate.info-labs.jp/2017-01-27-sep-speech-tools.html" rel="alternate"></link><updated>2017-01-27T00:00:00+09:00</updated><author><name>mugwort_rc</name></author><id>tag:debate.info-labs.jp,2017-01-27:2017-01-27-sep-speech-tools.html</id><summary type="html">&lt;p&gt;&lt;a href="https://debate.info-labs.jp/pages/sep-speech-tools.html"&gt;SEPSpeechTools&lt;/a&gt;は文章の母音数を算出するソフトウェアです。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="mainwindow.png" src="https://debate.info-labs.jp/mainwindow.png" /&gt;&lt;/p&gt;
-&lt;p&gt;従来のソフトウェアでは文章を読み上げる場合の長さを文字数から概算することしかできませんでした。&lt;/p&gt;
-&lt;p&gt;読み上げる長さに直接影響を与える要素として考えられるものはよみがなの長さであると推測できます。&lt;/p&gt;
+&lt;p&gt;従来のソフトウェアでは、文章を読み上げる際の長さを文字数から概算することしかできませんでした。&lt;/p&gt;
+&lt;p&gt;読み上げる長さに直接影響を与える要素としてはよみがなの長さが考えられます。&lt;/p&gt;
 &lt;p&gt;よみがなを母音数とみなし、文字数とともに算出するのがこのツールです。&lt;/p&gt;
 &lt;h2&gt;辞書について&lt;/h2&gt;
 &lt;p&gt;mecab-ipadic-NEologdと呼ばれる、最新の単語等を網羅した辞書を用いることで高精度なよみがな取得を実現しています。&lt;/p&gt;
