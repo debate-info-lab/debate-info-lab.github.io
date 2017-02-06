@@ -57,6 +57,9 @@ EXTRA_PATH_METADATA = {
     'static/apple-icon-57x57.png': {
         'path': 'apple-icon-57x57.png',
     },
+    'static/apple-icon-60x60.png': {
+        'path': 'apple-icon-60x60.png',
+    },
     'static/apple-icon-72x72.png': {
         'path': 'apple-icon-72x72.png',
     },
@@ -87,14 +90,14 @@ EXTRA_PATH_METADATA = {
     'static/favicon.ico': {
         'path': 'favicon.ico',
     },
-    'static/favicon-16x16.ico': {
-        'path': 'favicon16x16.ico',
+    'static/favicon-16x16.png': {
+        'path': 'favicon16x16.png',
     },
-    'static/favicon32x32.ico': {
-        'path': 'favicon32x32.ico',
+    'static/favicon32x32.png': {
+        'path': 'favicon32x32.png',
     },
-    'static/favicon96x96.ico': {
-        'path': 'favicon96x96.ico',
+    'static/favicon96x96.png': {
+        'path': 'favicon96x96.png',
     },
     'static/manifest.json': {
         'path': 'manifest.json',
