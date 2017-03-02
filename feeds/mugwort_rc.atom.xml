@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Debate Information Laboratory</title><link href="https://debate.info-labs.jp/" rel="alternate"></link><link href="https://debate.info-labs.jp/feeds/mugwort_rc.atom.xml" rel="self"></link><id>https://debate.info-labs.jp/</id><updated>2017-01-27T00:00:00+09:00</updated><entry><title>SEPSpeechTools v0.0.1を公開しました</title><link href="https://debate.info-labs.jp/2017-01-27-sep-speech-tools.html" rel="alternate"></link><updated>2017-01-27T00:00:00+09:00</updated><author><name>mugwort_rc</name></author><id>tag:debate.info-labs.jp,2017-01-27:2017-01-27-sep-speech-tools.html</id><summary type="html">&lt;p&gt;&lt;a href="https://debate.info-labs.jp/pages/sep-speech-tools.html"&gt;SEPSpeechTools&lt;/a&gt;は文章の母音数を算出するソフトウェアです。&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Debate Information Laboratory</title><link href="https://debate.info-labs.jp/" rel="alternate"></link><link href="https://debate.info-labs.jp/feeds/mugwort_rc.atom.xml" rel="self"></link><id>https://debate.info-labs.jp/</id><updated>2017-03-02T00:00:00+09:00</updated><entry><title>次世代Webアーカイブを作成しました</title><link href="https://debate.info-labs.jp/2017-03-02-new-generation-web-archive.html" rel="alternate"></link><updated>2017-03-02T00:00:00+09:00</updated><author><name>mugwort_rc</name></author><id>tag:debate.info-labs.jp,2017-03-02:2017-03-02-new-generation-web-archive.html</id><summary type="html">&lt;p&gt;&lt;a href="https://info-labs.jp/crawler/"&gt;次世代Webアーカイブ&lt;/a&gt;はWebページのクロール結果にデジタル署名を施すことで、サービス外にデータを移したとしても有効な証拠であり続ける新しいWebアーカイブサービスです。&lt;/p&gt;
+&lt;p&gt;従来のWebアーカイブサービスは収集結果をWebサービス上で提供することで証拠としての機能を提供してきました。&lt;/p&gt;
+&lt;p&gt;しかし、Webサービスが終了してしまえば、それらの証拠は失われることになります。&lt;/p&gt;
+&lt;p&gt;仮にユーザーがアーカイブを手元で保管しようとしても、ユーザーの手元に渡った時点で改ざんの疑いが生じるため証拠の効力が失われてしまいます。&lt;/p&gt;
+&lt;p&gt;このサービスではリクエストされたURLの記録と同時にデジタル署名を付加することで、サーバーで作成された時点から改ざんが行われていないことを保証し、ユーザーの手元でも証拠の効力を維持できるようにしました。&lt;/p&gt;
+&lt;p&gt;アーカイブ手法はInternet Archive (archive.org)で実際に使用されているWARCファイルフォーマット（ISO 28500:2009）に準拠しています。&lt;/p&gt;
+&lt;p&gt;デジタル署名はOpenPGP（RFC 4880）の実装の一つ、GnuPGを用いて作成しています。&lt;/p&gt;
+&lt;p&gt;署名鍵は &lt;a href="https://info-labs.jp/pks/lookup?op=vindex&amp;amp;search=0x728aa3b54479f3f4"&gt;Info Labs Archive (2017 4096 bits)&lt;/a&gt; (keyid=728AA3B54479F3F4) になります。&lt;/p&gt;
+&lt;p&gt;デジタル署名用の&lt;a href="https://github.com/info-labs/QGPG/releases/tag/v0.1.0"&gt;検証ツール&lt;/a&gt;も用意しました。&lt;/p&gt;
+&lt;p&gt;アーカイブは&lt;a href="https://github.com/ikreymer/pywb"&gt;https://github.com/ikreymer/pywb&lt;/a&gt;などを用いて閲覧することが出来ます。&lt;/p&gt;
+&lt;p&gt;GUIのアーカイブビューアについては現在鋭意製作中です。&lt;/p&gt;
+&lt;h2&gt;参照&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://info-labs.jp/crawler/"&gt;次世代Webアーカイブ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/info-labs/QGPG"&gt;QGPG&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary></entry><entry><title>SEPSpeechTools v0.0.1を公開しました</title><link href="https://debate.info-labs.jp/2017-01-27-sep-speech-tools.html" rel="alternate"></link><updated>2017-01-27T00:00:00+09:00</updated><author><name>mugwort_rc</name></author><id>tag:debate.info-labs.jp,2017-01-27:2017-01-27-sep-speech-tools.html</id><summary type="html">&lt;p&gt;&lt;a href="https://debate.info-labs.jp/pages/sep-speech-tools.html"&gt;SEPSpeechTools&lt;/a&gt;は文章の母音数を算出するソフトウェアです。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="mainwindow.png" src="https://debate.info-labs.jp/mainwindow.png" /&gt;&lt;/p&gt;
 &lt;p&gt;従来のソフトウェアでは、文章を読み上げる際の長さを文字数から概算することしかできませんでした。&lt;/p&gt;
 &lt;p&gt;読み上げる長さに直接影響を与える要素としてはよみがなの長さが考えられます。&lt;/p&gt;
