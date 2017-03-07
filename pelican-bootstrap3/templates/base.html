@@ -176,6 +176,16 @@
         {% endblock %}
         </div>
         {% if not HIDE_SIDEBAR or ABOUT_ME %}
+        <div class="col-sm-3" id="sidebar">
+            <aside>
+            {% if ABOUT_ME %}
+                {% include 'includes/aboutme.html' %}
+            {% endif %}
+            {% if not HIDE_SIDEBAR %}
+                {% include 'includes/sidebar.html' %}
+            {% endif %}
+            </aside>
+        </div>
         <div class="col-sm-3">
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- debate.info-labs.jp -->
@@ -187,16 +197,6 @@
         <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
-        </div>
-        <div class="col-sm-3" id="sidebar">
-            <aside>
-            {% if ABOUT_ME %}
-                {% include 'includes/aboutme.html' %}
-            {% endif %}
-            {% if not HIDE_SIDEBAR %}
-                {% include 'includes/sidebar.html' %}
-            {% endif %}
-            </aside>
         </div>
         {% endif %}
     </div>
